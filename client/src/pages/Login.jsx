@@ -37,7 +37,6 @@ const Login = () => {
           <TabsTrigger value="login">Login</TabsTrigger>
         </TabsList>
 
-        {/* ---------------- SIGNUP ---------------- */}
         <TabsContent value="signup">
           <Card className="rounded-2xl shadow-xl border border-slate-700">
             <CardHeader className="text-center space-y-2">
@@ -95,7 +94,6 @@ const Login = () => {
           </Card>
         </TabsContent>
 
-        {/* ---------------- LOGIN ---------------- */}
         <TabsContent value="login">
           <Card className="rounded-2xl shadow-xl border border-slate-700">
             <CardHeader className="text-center space-y-2">
